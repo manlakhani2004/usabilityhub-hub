@@ -1,0 +1,167 @@
+@media screen  and (max-width:991px){
+    .container{
+        width: 100vw;
+        margin: auto;
+        padding-inline: 30px;
+    }
+    .nav-right{
+        display: none;
+    }
+
+    .bars-icon{
+        display: block;
+    }
+
+    .hero-section{
+     gap:5rem;
+    }
+
+    .hero-right img{
+        width:50vw;
+    }
+  
+    .company-header{
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .company-logo{
+        width: 90vw;
+        margin-inline: auto;
+    }
+
+    .research-card-section{
+        flex-wrap: wrap;
+    }
+
+    .research-card{
+       width: 47%;
+    }
+
+    .photos{
+        margin-top: 2rem;
+    }
+
+     .photo{
+        width: 46%;
+        height: 160px;
+        gap:1rem;
+     }
+}
+
+
+@media screen and (max-width:767px){
+    .hero-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left{
+        margin-top: 1rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero-right img{
+        width: 100%;
+    }
+
+    .company-header{
+        font-size: 1rem;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .research{
+       margin-top: 1rem;
+    }
+
+    .footer-container{
+        flex-wrap:wrap;
+
+    }
+    .photo-font{
+        font-size: 1.2rem !important;
+    }
+    
+    .footer-column{
+        width: 45%;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width:479px){
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+  
+    h3{
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .top-header{
+        font-size: 1rem;
+    }
+
+
+    .primary-button{
+        border: 2px solid var(--secondry-color);
+        padding: 8px 16px;
+        color:var(--secondry-color-dark);
+        border-radius: 5px;
+        text-shadow: 2px 2px 8px solid var(--secondry-color);
+        font-size: 1.1rem;
+    
+    }
+    
+    .secoundry-button{
+        padding: 8px 16px;
+        border-radius: 5px;
+        color:white !important;
+        background-color: var(--primary-color);
+        font-size: 1.1rem;
+    }
+
+    .research-card-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .research-card{
+        width: 70%;
+    }
+
+    .examples-1{
+        flex-direction: column;
+        margin-block: 2rem;
+    }
+
+    .examples-2{
+        flex-direction: column;
+    }
+
+    .photo{
+        width: 100%;
+    }
+
+    .photo-font{
+        font-size: 1.4rem !important;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
